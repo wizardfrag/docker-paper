@@ -1,6 +1,6 @@
 FROM java:8-alpine
 
-ARG PAPER_JOB=Paper
+ARG PAPER_JOB=Paper-1.13
 ARG PAPER_URL=https://destroystokyo.com/ci/job/${PAPER_JOB}/lastSuccessfulBuild/artifact/paperclip.jar
 
 EXPOSE 25565
